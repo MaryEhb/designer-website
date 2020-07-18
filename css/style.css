@@ -1,0 +1,558 @@
+/*Start main rulez*/
+
+body{
+	font-family:arial;
+}
+
+.container{
+	width:1070px;
+	margin:auto;
+}
+
+p{
+	text-transform:lowercase;
+	line-height:1.7;
+	color:#666;
+}
+
+h3{
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#077737;
+}
+
+h4{
+	 color:#555;
+	font-weight:bold;
+}
+
+.clearfix{
+	clear:both;
+}
+
+/*End main rulez*/
+
+
+/*Start of Header*/
+.slider{
+	background-image:url("../images/fearnture.png");
+	background-size:cover;	
+	height:600px;
+	background-attachment:fixed;
+}
+
+.header .slider .intro{
+	padding-top:300px;
+	text-align:center;
+	color:#fff;
+}
+
+.header .slider .intro h2{
+	margin:0 auto;
+	font-size:70px;
+	width:500px;
+	border-bottom: solid 3px #fff;
+	border-top: solid 4px #fff;
+}
+
+.header .slider .intro button{
+	background:none;
+	color:#fff;
+	width:140px;
+	margin-top:30px;
+	font-size:20px;
+	border:solid 2px #fff;
+	font-weight:bold;
+	padding:10px;
+	cursor:pointer;
+}
+
+.navBar h2{
+	float:left;
+	color:white;
+}
+
+.navBar h2 span{
+	color:#2ecc71;	
+}
+
+.header .navBar {
+	background-color:#c68429;
+	color:#fff;
+	overflow:hidden;
+}
+
+.header .navBar ul {
+	list-style: none;
+	padding-left:0;
+	overflow:hidden;
+	float:right;
+}
+
+.header .navBar ul li {
+	float:left;
+	padding:10px;	
+}
+
+.header .navBar ul li a{
+	text-decoration:none;
+	color:#fff;
+}
+
+.header .navBar ul li .active{
+	color:#2ecc71;
+}
+
+.header .navBar ul li a:hover {
+	color:#2ecc71;
+}
+
+/*end of Header*/
+
+/*start of features*/
+
+.features {
+	overflow:hidden;
+	padding-top:40px;
+	padding-bottom:50px;
+}
+	
+.features .feat{
+	overflow:hidden;
+	float:left;
+	width:24.7%;
+	height:150px;
+	background-color:#f2f2f2;
+	margin-right:50px;
+	padding:20px;
+}
+
+.features .feat h3 {
+	text-transform:uppercase;
+	color:#077737;
+}
+
+.features .feat p {
+	line-height:1.4;
+	color:#888;
+}
+
+/*end of features*/
+
+/*start about me*/
+
+.about-me {
+	background-color:#f2f2f2;
+	overflow:hidden;
+}
+
+.about-me .image {
+	float:left;
+	width:40%;
+}
+.about-me .image img {
+	width:100%;
+}
+
+.about-me .info{
+	float:left;
+	width:60%;
+}
+
+.about-me .info h3{
+	margin:40px 0 20px 40px;
+}
+
+.about-me .info p{
+	line-height:1.4;
+	color:#666;
+}
+
+.about-me .info > p{
+	margin: 0 0 10px 40px;	
+}
+
+.about-me .info > p:last-of-type {
+	margin-top:30px
+}
+
+.about-me .info .hobbies{
+	overflow:hidden;
+	margin:20px 0 0 40px;
+	
+}
+
+.about-me .info .hobbies .content{
+	overflow:hidden;
+	float:left;
+	width:50%;
+	min-height:100px;
+}
+
+.about-me .info .hobbies .content .icon{
+	float:left;
+	width:10%;
+}
+
+.about-me .info .hobbies .content .icon img{
+	max-width:100%;
+	margin: 20px 10px 0 0;
+}
+
+.about-me .info .hobbies .content .text{
+	float:left;
+	width:90%;
+}
+ 
+/*end about me*/
+
+
+/*start my skills*/
+
+.my-skills{
+	overflow:hidden;
+	padding-bottom:30px;
+	padding-top:30px;	
+}
+
+.my-skills .skills , .progress{
+	float:left;
+	width:50%;
+}
+
+.my-skills .skills h3{
+	margin:40px 0 20px 40px;
+}
+
+.my-skills .skills p{
+	margin: 0 0 10px 40px;
+}
+
+.my-skills .skills > p:last-of-type {
+	margin-top:30px
+}
+
+.my-skills .skills button{
+	margin: 0 0 10px 40px;
+	background:none;
+	border:solid 3px #2dcc70;
+	color:#2dcc70;
+	padding:10px 30px;
+	cursor:pointer;
+}
+
+.my-skills .progress .technique{
+	margin-left:50px;
+}
+
+.my-skills .progress .technique h4{
+	color:#555;
+	font-weight:bold;
+}
+
+.my-skills .progress .technique div{
+	background-color:#f2f2f2;
+	height:25px;
+}
+
+.my-skills .progress .technique div span{
+	background-color:#2dcc70;
+	height:25px;
+	display:block;
+	line-height:25px;
+	text-align:right;
+	color:#fff;
+}
+	
+/*end my skills*/
+
+/*start resume*/
+
+.resume{
+	overflow:hidden;
+	background-color:#f2f2f2;
+	padding-bottom:70px;
+	padding-top:50px;
+	text-align:center;
+}
+
+resume p{
+	line-height:1.7;
+	padding:0 40px;	
+}
+
+.resume button{
+	margin: 0 0 10px 40px;
+	background:none;
+	border:solid 3px #2dcc70;
+	color:#2dcc70;
+	padding:10px 30px;
+	margin-top:25px;
+	cursor:pointer;
+}
+
+/*end resume*/
+
+/*start my education*/
+
+.my-education{
+	overflow:hidden;
+	padding-bottom:30px;
+	padding-top:30px;
+}
+
+.my-education .education{
+	float:left;
+	width:50%;
+	margin-right:5%;
+}
+
+.my-education .xp{
+	float:left;
+	width:45%;
+}
+
+.my-education .xp h4{
+	margin-top:60px;
+	margin-bottom:5px;
+}
+
+.my-education .xp span{
+	display:block;
+	margin-bottom:8px;
+}
+
+.my-education .xp span:first-of-type{
+	color:#999;
+}
+
+.my-education .xp span:last-of-type{
+	color:#fff;
+	background-color:#2dcc70;
+	display:inline-block;
+	padding:1px 4px;
+}
+
+.my-education .xp hr{
+	background-color:#999;
+	margin:15px 0;
+	height:1px;
+	border:0;
+}
+
+/*end my education*/
+
+/*start work xp*/
+
+.work-xp{
+	overflow:hidden;
+	padding-bottom:30px;
+	padding-top:30px;
+}
+
+.work-xp .work {
+	float:left;
+	width:50%;
+	margin-right:5%;
+}
+
+.work-xp .wxp{
+	float:left;
+	width:45%;	
+}
+
+.work-xp .wxp h4{
+	margin-top:60px;
+	margin-bottom:5px;
+}
+
+.work-xp .wxp span{
+	display:block;
+	margin-bottom:8px;
+}
+
+.work-xp .wxp span:first-of-type{
+	color:#999;
+}
+
+.work-xp .wxp span:last-of-type{
+	color:#fff;
+	background-color:#2dcc70;
+	display:inline-block;
+	padding:1px 4px;
+}
+
+.work-xp .wxp hr{
+	background-color:#999;
+	margin:15px 0;
+	height:1px;
+	border:0;
+}
+
+/*end work xp*/
+
+/*start test*/
+
+.test{
+	overflow:hidden;
+	background-color:#f2f2f2;
+	padding-bottom:70px;
+	padding-top:70px;
+	text-align:center;
+}
+
+.test q{
+	text-transform:lowercase;
+	line-height:1.7;
+	color:#888;
+	font-size:18px;
+	font-style:italic;
+	font-weight:bold;	
+}
+
+.test ul{
+	list-style:none;
+	padding-left:0;
+	margin-top:30px;
+}
+
+.test ul li{
+	width:15px;
+	height:15px;
+	border: 2px solid #2dcc70;
+	border-radius:100%;
+	display:inline-block;
+	cursor:pointer;
+}
+
+.test ul .in , .test ul li:hover{
+	background-color:#2dcc70;
+}
+
+/*end test*/
+
+/*start portofolio */
+
+.portofolio{
+	padding-bottom:30px;
+	padding-top:30px;
+	text-align:center;
+}
+.portofolio .our-work{
+	overflow:hidden;
+}
+
+.portofolio .our-work > div {
+	float:left;
+	width:33.333333%;
+	margin-bottom:10px;	
+}
+
+.portofolio .our-work > div img{
+	width:92%;
+	margin:10px;
+}
+
+/*end portofolio */
+
+/*start contact me */
+ .contact{
+	background-color:#252f31;
+	overflow:hidden; 
+	padding:50px 0;
+ }
+ 
+ .contact .info{
+	float:left;
+	width:50%;
+	margin-right:5%;
+ }
+ 
+ .contact .info h3{
+	color:#fff;	
+ }
+ 
+ .contact .info p{
+	color:#6a6e71;
+ }
+ 
+ .contact .info p strong{
+	color:#d1d6da;
+ }
+ 
+ .contact .form{
+	float:left;
+	width:45%;
+ }
+ 
+ .contact .form label{
+	display:block;
+	color:#d1d6da;
+	margin:10px 0;
+ }
+
+ .contact .form input[type="text"] ,.contact .form input[type="email"] ,.contact .form input[type="number"] {
+	background-color:#4b5557;
+	border:0;
+	color:#fff;
+	padding:10px;
+	width:80%;
+	margin-bottom:10px;
+ }
+ 
+ .contact .form textarea {
+	background-color:#4b5557;
+	border:0;
+	color:#fff;
+	padding:10px;
+	width:80%;
+	margin-bottom:10px;
+	height:200px; 
+ }
+ 
+ .contact .form input[type="submit"]{
+	background-color:#191e22;
+	color:#fff;
+	padding:10px 20px;
+	border:none;
+	margin-top:10px;
+	cursor:pointer;
+ }
+ 
+/*end contact me*/
+
+/*start footer*/
+
+.footer{
+	text-align:center;
+	background-color:#191e22;
+	color:#6a6e71;
+	padding:20px 0;
+}
+
+.footer span{
+	display:block;	
+}
+
+.footer ul{
+	padding-left:0;
+	list-style:none;
+	margin:10px 0 0 ;
+}
+
+.footer ul li {
+	display:inline-block;
+	padding:5px
+}
+
+.footer ul li img{
+	width:30px;
+	height:30px;
+	cursor:pointer;
+}
+.footer ul li img:hover{
+	width:40px;
+	height:40px;
+}
+
+/*end footer*/
